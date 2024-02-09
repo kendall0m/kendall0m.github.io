@@ -63,9 +63,18 @@ span{
 
 .profile-portrait{
     border: 5px rgb(225, 192, 203);
-    margin: 10px;
-    float: left;
     border-radius: 50%;
+    position: relative;
+    animation-name: cinnamoroll;
+    animation-duration: 2s;
+}
+
+@keyframes cinnamoroll {
+  0%   {left:0px; top:0px; transform: rotate(100deg);}
+  25%  {left:200px; top:0px; transform: rotate(200deg);}
+  50%  {left:0px; top:0px; transform: rotate(300deg);}
+  75%  {left:-200px; top:0px; transform: rotate(400deg);}
+  100% {left:0px; top:0px; transform: rotate(0deg);}
 }
 
 .page-header {
@@ -409,3 +418,15 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+/* img {
+  border-radius: 50%;
+} */
+
+/* img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
