@@ -14,59 +14,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <div class= page-container>
+  <div class="page-container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <ul class="navbar-nav mr-auto mt-2 ">
-            <a class="navbar-brand" href="#">
-                <img src="img/Fruit_Peach_NH_Icon.png" width="30" height="30" alt="">
-            </a>
-            <a class="nav-link" href="index.html" role="menuitem">Home </a>
-            <a class="nav-link" href="about.html" role="menuitem"> About Me </a> 
-            <a class="nav-link" href="contact.html" role="menuitem">Contact </a> 
-            <a class="nav-link" href="work.html" role="menuitem">My Work </a> 
-            <a class="nav-link" href="casestudy.html" role="menuitem">Case Study </a>  
-        </ul>
+      <ul class="navbar-nav mr-auto mt-2 ">
+        <a class="navbar-brand"><img src="img/Fruit_Peach_NH_Icon.png" width="30" height="30" alt=""></a>
+        <a class="nav-link" href="index.html" role="menuitem">Home </a>
+        <a class="nav-link" href="about.html" role="menuitem"> About Me </a> 
+        <a class="nav-link" href="contact.html" role="menuitem">Contact </a> 
+        <a class="nav-link" href="work.html" role="menuitem">My Work </a> 
+        <a class="nav-link" href="casestudy.html" role="menuitem">Case Study </a>  
+      </ul>
     </nav>
-
     <div class="contactme">
-    <h1> Contact Me </h1>
-
-    <p><b>Kendall Saint Victor</b></p>
-    Norfolk, VA<br>
-    United States<br>
-    <br>
-
-    <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputEmail">Email</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      <h1> Contact Me </h1>
+        <p>
+          <b>Kendall Saint Victor</b><br>
+          Norfolk, VA<br>
+          United States<br>
+        </p>
+        <div class="form-style-3">
+        <form action="https://formsubmit.co/kendallsaintvictor@gmail.com" method="POST">
+          <fieldset><legend>Personal</legend>
+            <input type="hidden" name="_next" value="thankyou.html">
+            <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+            <label for="field2"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
+            </select></label>
+            </fieldset>
+            <fieldset><legend>Message</legend>
+            <label for="field6"><span>Message <span class="required">*</span></span><textarea name="field6" class="textarea-field"></textarea></label>
+            <label><span> </span><button type="submit" value="Submit">Send</button></label>
+            </fieldset>
+        </form>
         </div>
-        <div class="form-group col-md-6">
-          <label for="inputName">Name</label>
-          <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message Me</label>
-        <textarea class="form-control" id="inputMessage" placeholder="..."rows="3"></textarea>
-      </div>
-      <input type="submit" value="Send message" required>
-    </form>
-    <br>
-    <a href="kendallsaintvictor@gmail.com">Email me!</a>
-    
-    <br>
+        <!-- <div class="form-style-3">
+          <form>
+          <fieldset><legend>Personal</legend>
+          <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+          <label for="field2"><span>Email <span class="required">*</span></span><input type="email" class="input-field" name="field2" value="" /></label>
+          </select></label>
+          </fieldset>
+          <fieldset><legend>Message</legend>
+          <label for="field6"><span>Message <span class="required">*</span></span><textarea name="field6" class="textarea-field"></textarea></label>
+          <label><span> </span><input type="submit" value="Submit" /></label>
+          </fieldset>
+          </form>
+          </div> -->
+      <a href="mailto: kendallsaintvictor@gmail.com">Email me!</a>
     </div>
-    </div>
-    <div class="footer">
-      <p>Find me on</p>
-      <div class="social media">       
-        <a href="https://github.com/kendall0m" target="_blank"><img class="github" src="img/github.svg"  alt="Github"></a>
-        <a href="https://twitter.com/amethystaugur" target="_blank"><img class="twitter" src="img/twitter.svg" alt="Twitter"></a>
-        <a href="https://www.linkedin.com/in/kendall-saint-victor-129501247/" target="_blank"><img class="linkedin" src="img/linkedin.svg" alt="LinkedIn"></a><br>
-        <a href="#">Back to top</a>
-      </div> 
-<script src="js/tota11y.min.js"></script>
+  </div>
+    <script src="js/tota11y.min.js"></script>   
 </body>
-</html>
+
+<footer class="text-center text-lg-start">
+  <div id="footer" class="flex-container">
+    <div class="social media">       
+      <a href="https://github.com/kendall0m" target="_blank"><img class="github" src="img/github.svg"  alt="Github"></a>
+      <a href="https://twitter.com/amethystaugur" target="_blank"><img class="twitter" src="img/twitter.svg" alt="Twitter"></a>
+      <a href="https://www.linkedin.com/in/kendall-saint-victor-129501247/" target="_blank"><img class="linkedin" src="img/linkedin.svg" alt="LinkedIn"></a><br>
+    </div> 
+  </div>
+  <div class="text-center">
+    <a href="#">Back to top</a>
+  </div>
+</footer>
+
+</html>  
